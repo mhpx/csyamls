@@ -60,7 +60,7 @@ write_files:
         CCB_HEARTBEAT_INTERVAL = 180
         TRUST_UID_DOMAIN = False
         START = TRUE
-        DAEMON_LIST = MASTER
+        DAEMON_LIST = MASTER STARTD
         MaxJobRetirementTime = 3600 * 24 * 2
         SHUTDOWN_GRACEFUL_TIMEOUT = 3600 * 25 * 2
         USER_JOB_WRAPPER = /usr/libexec/condor/jobwrapper.sh
